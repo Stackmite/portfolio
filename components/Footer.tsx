@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="grid md:grid-cols-4 gap-12 mb-16">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-2 mb-6">
-              <Logo className="h-10 text-blue-500" />
+              <img src="/logo.png" style={{ width: "100px", height: "auto" }} />
               <span className="text-3xl font-bold text-white tracking-tight">
                 Stackmite
               </span>
