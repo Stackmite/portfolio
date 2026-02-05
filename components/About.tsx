@@ -38,7 +38,7 @@ const About: React.FC = () => {
 
             <div className="grid grid-cols-2 gap-10 p-10 bg-slate-50 rounded-[2.5rem] border border-slate-100">
               <div>
-                <h4 className="text-5xl font-black text-slate-900 mb-2 tracking-tighter">50+</h4>
+                <h4 className="text-5xl font-black text-slate-900 mb-2 tracking-tighter">5+</h4>
                 <p className="text-slate-500 font-bold uppercase text-xs tracking-widest">Global Brands</p>
               </div>
               <div>

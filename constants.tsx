@@ -50,7 +50,7 @@ export const PROJECTS = [
     id: 1,
     title: "Wheelzloop",
     category: "Website",
-    image: "../images/wheelzloop.png",
+    image: "/wheelzloop.png",
     description:
       "Wheelzloop is a modern marketplace for buying and selling quality used cars with confidence. We make car ownership simpler by combining transparent pricing, verified listings, and a smooth digital experience—all in one place.",
   },
@@ -58,7 +58,7 @@ export const PROJECTS = [
     id: 2,
     title: "Glamio",
     category: "Website",
-    image: "../images/glamio-web.png",
+    image: "/glamio-web.png",
     description:
       "Glamio is a smart beauty booking platform that connects customers with trusted salons and beauty professionals, making self-care simple, convenient, and accessible.",
   },
@@ -66,7 +66,7 @@ export const PROJECTS = [
     id: 3,
     title: "Glamio App",
     category: "App",
-    image: "../images/glamio-app.jpg",
+    image: "/glamio-app.jpg",
     description:
       "Glamio is your all-in-one beauty booking app designed to connect you with trusted salons and beauty professionals near you.Browse salons, explore services, compare prices, and book appointments in seconds—no calls, no waiting. Whether it s a haircut, facial, spa session, or bridal service, Glamio helps you manage your beauty routine with ease.",
   },
@@ -100,36 +100,7 @@ export const TRUST_LOGOS = [
 ];
 
 export const Logo = ({ className = "h-8" }: { className?: string }) => (
-  <svg
-    className={className}
-    viewBox="0 0 100 100"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M20 30L50 15L80 30V70L50 85L20 70V30Z"
-      stroke="currentColor"
-      strokeWidth="6"
-      strokeLinejoin="round"
-    />
-    <path
-      d="M50 15V85"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeDasharray="4 4"
-    />
-    <path
-      d="M20 30L80 70"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeDasharray="4 4"
-    />
-    <path
-      d="M80 30L20 70"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeDasharray="4 4"
-    />
-    <rect x="42" y="42" width="16" height="16" rx="4" fill="currentColor" />
-  </svg>
+  <div className={className}>
+    <img src="/logo.png" />
+  </div>
 );
